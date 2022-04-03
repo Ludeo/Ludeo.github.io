@@ -1,9 +1,7 @@
 /** @type {import('next').NextConfig} */
 const isProd = process.env.NODE_ENV === 'production'
 
-const nextConfig = {
+module.exports = {
   reactStrictMode: true,
-  assetPrefix: isProd ? '/ludeo.github.io/' : '',
+  assetPrefix: isProd ? '/ludeo.github.io/' : ''
 }
-
-module.exports = nextConfig
