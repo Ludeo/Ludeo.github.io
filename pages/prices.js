@@ -4,7 +4,12 @@ export default function Prices() {
     var hPouchS = '100';
     if (typeof window !== "undefined") {
         hPouchS = window.localStorage.getItem('hPouchS');
-      }
+    }
+
+    const handleClick = () => {
+      setActive(!active);
+    };
+
   return (
     <div>
       <Head>
@@ -16,7 +21,7 @@ export default function Prices() {
             <p>Honing Materials</p><br/>
             <p>Harmony Shard Pouch (S)</p>
             <input type='text' id='hPouchS' defaultValue={hPouchS} />
-            <button type='button' onClick='updatePrices()'>Submit</button>
+            <button type='button' onClick={handleClick}>Submit</button>
       </div>
     </div>
   );

@@ -6,10 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "build:css": "postcss styles/tailwind.css -o styles/main.css",
-    "build:watch": "postcss styles/tailwind.css -o styles/main.css --watch",
-    "prod:build": "NODE_ENV=production yarn run build:css && yarn run build"
+    "lint": "next lint"
   },
   "dependencies": {
     "autoprefixer": "^10.4.4",
