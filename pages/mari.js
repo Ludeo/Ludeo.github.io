@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import { Navbar } from '../components/Navbar';
+import { prefix } from './prefix.js';
 
 export default function Mari() {
   var test = 'n/a';
