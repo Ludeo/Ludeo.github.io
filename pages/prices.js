@@ -1,4 +1,6 @@
 import Head from 'next/head';
+import { Navbar } from '../components/Navbar';
+import { prefix } from '../components/prefix.js';
 
 export default function Prices() {
     var hPouchS = '100';
@@ -7,15 +9,16 @@ export default function Prices() {
     }
 
     const handleClick = () => {
-      setActive(!active);
+      updatePrices();
     };
 
   return (
     <div>
       <Head>
         <title>Prices</title>
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href={`${prefix}/favicon.ico`} />
       </Head>
+      <Navbar />
       <div>Prices</div>
       <div>
             <p>Honing Materials</p><br/>

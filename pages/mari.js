@@ -17,6 +17,7 @@ export default function Mari() {
       </Head>
       <Navbar />
       <div>Mari Shop</div>
+      <p>{test}</p>
     </div>
   );
 }

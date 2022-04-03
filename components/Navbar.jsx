@@ -61,6 +61,11 @@ export const Navbar = () => {
                                 Trade Item Exchange
                             </a>
                         </Link>
+                        <Link href='/prices'>
+                            <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-green-600 hover:text-white'>
+                                Prices
+                            </a>
+                        </Link>
                     </div>
                 </div>
             </nav>
