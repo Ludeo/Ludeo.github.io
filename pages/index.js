@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import { Navbar } from '../components/Navbar';
-import { prefix } from './prefix.js';
+import { prefix } from '../components/prefix.js';
 
 export default function Home() {
   return (
