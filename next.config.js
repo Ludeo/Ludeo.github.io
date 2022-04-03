@@ -3,5 +3,5 @@ const isProd = process.env.NODE_ENV === 'production'
 
 module.exports = {
   reactStrictMode: true,
-  assetPrefix: isProd ? '/ludeo.github.io/' : ''
+  assetPrefix: isProd ? '/intralism-lost-ark/' : ''
 }
