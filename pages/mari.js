@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { Navbar } from '../components/Navbar';
 
 export default function Mari() {
   var test = 'n/a';
@@ -10,14 +11,11 @@ export default function Mari() {
   return (
     <div>
       <Head>
-        <title>Mari Shop </title>
-        <link rel='icon' href='/favicon.ico' />
+        <title>Mari Shop</title>
+        <link rel='icon' href={`${prefix}/favicon.ico`} />
       </Head>
-      <div>
-        <p>Mari Shop</p>
-        <br/>
-        <p>{test}</p>
-      </div>
+      <Navbar />
+      <div>Mari Shop</div>
     </div>
   );
 }
