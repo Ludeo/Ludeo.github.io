@@ -3,5 +3,5 @@ const isProd = process.env.NODE_ENV === 'production'
 
 module.exports = {
   reactStrictMode: true,
-  assetPrefix: isProd ? '/intralism-lost-ark/' : ''
+  assetPrefix: isProd ? '/intralismlostark/' : ''
 }
