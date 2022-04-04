@@ -3,12 +3,6 @@ import { Navbar } from '../components/Navbar';
 import { prefix } from '../components/prefix.js';
 
 export default function Mari() {
-  var test = 'n/a';
-
-  if (typeof window !== "undefined") {
-    test = window.localStorage.getItem('hPouchS');
-  }
-  
   return (
     <div>
       <Head>
@@ -17,7 +11,9 @@ export default function Mari() {
       </Head>
       <Navbar />
       <div>Mari Shop</div>
-      <p>{test}</p>
+      <div>
+
+      </div>
     </div>
   );
 }
